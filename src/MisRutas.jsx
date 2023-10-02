@@ -1,4 +1,4 @@
-import {Routes,  Route, BrowserRouter, Navigate} from "react-router-dom";
+import {Routes,  Route, BrowserRouter} from "react-router-dom";
 import HeaderNav from '../src/components/layout/Header/HeaderNav';
 import Footer from './components/layout/Footer/Footer';
 import Curriculum from './components/Curriculum/Curriculum';
@@ -15,7 +15,7 @@ const MisRutas = () => {
         <HeaderNav />
         {/* Contenido central */}
         <Routes>
-            <Route path="/" element={<Navigate to="/inicio" />}/>
+            <Route path="/" element={<Inicio />}/>
             <Route path="/inicio" element={<Inicio />}/>
             <Route path="/portfolio" element={<Portfolio />}/>
             <Route path="/blog" element={<Blog />}/>
