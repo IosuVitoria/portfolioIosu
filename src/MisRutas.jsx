@@ -15,12 +15,12 @@ const MisRutas = () => {
         <HeaderNav />
         {/* Contenido central */}
         <Routes>
-            <Route path="./" element={<Inicio />}/>
-            <Route path="./inicio" element={<Inicio />}/>
-            <Route path="./portfolio" element={<Portfolio />}/>
-            <Route path="./blog" element={<Blog />}/>
-            <Route path="./curriculum" element={<Curriculum />}/>
-            <Route path="./contacto" element={<Contacto />}/>
+            <Route path="/" element={<Inicio />}/>
+            <Route path="/inicio" element={<Inicio />}/>
+            <Route path="/portfolio" element={<Portfolio />}/>
+            <Route path="/blog" element={<Blog />}/>
+            <Route path="/curriculum" element={<Curriculum />}/>
+            <Route path="/contacto" element={<Contacto />}/>
         </Routes>
          {/* Pie de página */}
         <Footer />
