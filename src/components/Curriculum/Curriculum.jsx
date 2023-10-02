@@ -3,7 +3,7 @@ import imageExp1 from "../../assets/aralab.jpg";
 import imageExp2 from "../../assets/apple.jpg";
 import imageExp3 from "../../assets/preoca.jpg";
 import imageHTML from "../../assets/logoStack/logoHTML.png";
-import imageCSS from "../../assets/logoStack/LogoCSS.png";
+import imageCSS from "../../assets/logoStack/logoCSS.png";
 import imageJS from "../../assets/logoStack/logoJS.png";
 import imageAngular from "../../assets/logoStack/logoAngular.png";
 import imageREACT from "../../assets/logoStack/logoREACT.png";
