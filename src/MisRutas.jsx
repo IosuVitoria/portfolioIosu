@@ -14,8 +14,7 @@ const MisRutas = () => {
       <HeaderNav />
       {/* Contenido central */}
       <Routes>
-        <Route path='/' element={<Inicio />}>
-          <Route path='/' element={<Navigate to='/inicio' />} />
+        <Route path='/'>
           <Route path='/inicio' element={<Inicio />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/blog' element={<Blog />} />
