@@ -10,7 +10,7 @@ import Blog from "./components/Blog/Blog";
 
 const MisRutas = () => {
   return (
-   <BrowserRouter>
+   <BrowserRouter basename="/portfolioIosu">
         {/* {Header y navegación} */}
         <HeaderNav />
         {/* Contenido central */}
